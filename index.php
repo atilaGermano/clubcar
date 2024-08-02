@@ -10,7 +10,9 @@
     <div class="login">
         <div class="form">
             <form class="registro" action="">
-                
+                <input type="email" name="usuario" placeholder="Email">
+                <input type="password" name="senha" placeholder="Senha">
+                <button>Login</button>
             </form>
 
         </div>
