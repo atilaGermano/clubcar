@@ -13,6 +13,9 @@ try{
     echo $e;
 }
 
+//variaveis globais
 
+$nome_sistema = 'Club Car';
+$email_sistema = 'atilagermano@hotmail.com';
 
 ?>
