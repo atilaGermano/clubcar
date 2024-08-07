@@ -23,7 +23,7 @@ echo <<<HTML
 HTML;
 
 
-for($i=0; $i<$linhas; $i++){
+for($i=0; $i<$linhas; $i++){ //loop para listar os usuários
 	$id = $res[$i]['id'];
 	$nome = $res[$i]['nome'];
 	$telefone = $res[$i]['telefone'];

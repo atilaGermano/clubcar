@@ -117,6 +117,7 @@ if($linhas > 0){
 	</script>
 	<!-- //pie-chart --><!-- index page sales reviews visitors pie chart -->
 
+		<!-- página de usuários --><!-- Lista de usuario -->
 
 <link rel="stylesheet" type="text/css" href="DataTables/datatables.min.css"/> <script src="DataTables/datatables.min.js"></script>
 
@@ -135,7 +136,8 @@ if($linhas > 0){
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<h1><a class="navbar-brand" href="index.php"><span class="fa fa-globe"></span> Sistema<span class="dashboard_text"><?php echo $nome_sistema ?></span></a></h1>
+<!--logo do menu-->		<h1><a class="navbar-brand" href="index.php"><span class="fa fa-car"></span> Sistema
+						<span class="dashboard_text"><?php echo $nome_sistema ?></span></a></h1>
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
 						<ul class="sidebar-menu">
@@ -152,7 +154,8 @@ if($linhas > 0){
 									<i class="fa fa-angle-left pull-right"></i>
 								</a>
 								<ul class="treeview-menu">
-									<li class="<?php echo $usuarios ?>"><a href="usuarios"><i class="fa fa-angle-right"></i> Usuários</a></li>
+									<li class="<?php echo $usuarios ?>"><a href="index.php?pagina=usuarios"><i 
+									class="fa fa-angle-right"></i> Usuários</a></li>
 									
 								</ul>
 							</li>

@@ -8,7 +8,7 @@ if(@$usuarios == 'ocultar'){
 
  ?>
 
-<div class="main-page margin-mobile">
+<div class="main-page margin-mobile"><!-- Botão de adicionar -->
 <a onclick="inserir()" type="button" class="btn btn-primary"><span class="fa fa-plus"></span> Usuário</a>
 
 
